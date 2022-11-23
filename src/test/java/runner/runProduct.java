@@ -7,7 +7,8 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(
         features = "src/test/resources/features/Product.feature",
-        glue = "stepDefinitions"
+        glue = "stepDefinitions",
+        tags = "@Filter"
 )
 public class runProduct {
 }

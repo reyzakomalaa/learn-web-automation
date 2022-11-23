@@ -7,4 +7,5 @@ public class env {
     protected static WebDriver driver;
     protected static WebDriverWait wait;
     protected static String productName;
+    protected static String firstProduct;
 }

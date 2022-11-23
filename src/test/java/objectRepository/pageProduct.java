@@ -68,4 +68,40 @@ public class pageProduct {
     public By getOverviewProductName() {
         return overviewProductName;
     }
+
+    By btnFilter = By.xpath("//select[@data-test = 'product_sort_container']");
+
+    public By getBtnFilter() {
+        return btnFilter;
+    }
+
+    By productListHome = By.xpath("//*[@class = \"inventory_item_name\"][1]");
+
+    public By getProductListHome() {
+        return productListHome;
+    }
+
+    By btnFilterByNameAZ = By.xpath("//select//option[@value = 'az']");
+
+    public By getBtnFilterByNameAZ() {
+        return btnFilterByNameAZ;
+    }
+
+    By btnFilterByNameZA = By.xpath("//select//option[@value = 'za']");
+
+    public By getBtnFilterByNameZA() {
+        return btnFilterByNameZA;
+    }
+
+    By btnFilterByPriceLowHigh = By.xpath("//select//option[@value = 'lohi']");
+
+    public By getBtnFilterByPriceLowHigh() {
+        return btnFilterByPriceLowHigh;
+    }
+
+    By btnFilterByPriceHighLow = By.xpath("//select//option[@value = 'hilo']");
+
+    public By getBtnFilterByPriceHighLow() {
+        return btnFilterByPriceHighLow;
+    }
 }
